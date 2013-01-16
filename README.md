@@ -6,7 +6,7 @@
 
 
 ## Download
-- V1: https://github.com/thewknd/Teensy3.0ToBreadboard/archive/V1.zip
+- V1: https://github.com/thewknd/Teensy3.0ToBreadboard/archive/V001.zip
 
 ## License
 Except where otherwise noted, this work is licensed under 
