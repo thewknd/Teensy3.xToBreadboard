@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +39,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -1675,66 +1675,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="TACTILE_SWITCH_SMD">
-<wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.54" x2="-1.54" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-1.54" y1="2.54" x2="1.54" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="1.54" y1="2.54" x2="2.54" y2="1.54" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="1.24" x2="2.54" y2="-1.24" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.54" x2="1.54" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="1.54" y1="-2.54" x2="-1.54" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="0.445" width="0.127" layer="51"/>
-<wire x1="1.905" y1="0.445" x2="2.16" y2="-0.01" width="0.127" layer="51"/>
-<wire x1="1.905" y1="-0.23" x2="1.905" y2="-1.115" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="21"/>
-<smd name="1" x="-2.54" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="2" x="2.54" y="1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="3" x="-2.54" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<smd name="4" x="2.54" y="-1.905" dx="0.762" dy="1.524" layer="1" rot="R90"/>
-<text x="-0.889" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.889" y="-2.032" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="TACTILE-PTH">
-<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
-<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
-<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
-<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
-<package name="KSA_SEALED_TAC_SWITCH">
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="3.81" x2="5.08" y2="3.81" width="0.127" layer="21"/>
-<wire x1="5.08" y1="3.81" x2="5.08" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-3.81" x2="-5.08" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-3.81" x2="-5.08" y2="3.81" width="0.127" layer="21"/>
-<pad name="P$1" x="-3.81" y="2.54" drill="1" shape="square"/>
-<pad name="P$2" x="3.81" y="2.54" drill="1" shape="square"/>
-<pad name="P$3" x="-3.81" y="-2.54" drill="1" shape="square"/>
-<pad name="P$4" x="3.81" y="-2.54" drill="1" shape="square"/>
-</package>
 <package name="BATTERY-AAA">
 <wire x1="-13.97" y1="3.81" x2="-13.97" y2="-3.81" width="0.127" layer="51"/>
 <wire x1="-13.97" y1="-3.81" x2="-23.495" y2="-3.81" width="0.127" layer="51"/>
@@ -2064,29 +2004,25 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="18.8976" y="0" curve="-90"/>
 </polygon>
 </package>
+<package name="LIPO-110-TABS">
+<wire x1="-6" y1="-11.5" x2="6" y2="-11.5" width="0.254" layer="51"/>
+<wire x1="6" y1="-11.5" x2="6" y2="11.5" width="0.254" layer="51"/>
+<wire x1="-6" y1="11.5" x2="-6" y2="-11.5" width="0.254" layer="51"/>
+<wire x1="2.5" y1="11" x2="2.5" y2="10" width="0.254" layer="21"/>
+<wire x1="-3" y1="10.5" x2="-2" y2="10.5" width="0.254" layer="21"/>
+<wire x1="2" y1="10.5" x2="3" y2="10.5" width="0.254" layer="21"/>
+<wire x1="-4.414" y1="11.5" x2="-6" y2="11.5" width="0.254" layer="21"/>
+<wire x1="6" y1="11.5" x2="-6" y2="11.5" width="0.254" layer="51"/>
+<wire x1="4.414" y1="11.5" x2="6" y2="11.5" width="0.254" layer="21"/>
+<wire x1="0.586" y1="11.5" x2="-0.6" y2="11.5" width="0.254" layer="21"/>
+<wire x1="-6" y1="-11.5" x2="6" y2="-11.5" width="0.254" layer="21"/>
+<rectangle x1="-3.5" y1="11.5" x2="-1.5" y2="16.5" layer="51"/>
+<rectangle x1="1.5" y1="11.5" x2="3.5" y2="16.5" layer="51"/>
+<smd name="+" x="2.5" y="14.5" dx="3" dy="6" layer="1"/>
+<smd name="-" x="-2.5" y="14.5" dx="3" dy="6" layer="1"/>
+</package>
 </packages>
 <symbols>
-<symbol name="SWITCH-MOMENTARY">
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.905" y1="4.445" x2="1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="4.445" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.905" y1="4.445" x2="0" y2="4.445" width="0.254" layer="94"/>
-<wire x1="0" y1="4.445" x2="-1.905" y2="4.445" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0" y1="4.445" x2="0" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
-<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2"/>
-</symbol>
 <symbol name="BATTERY">
 <wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.4064" layer="94"/>
 <wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.4064" layer="94"/>
@@ -2100,51 +2036,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TAC_SWITCH" prefix="S" uservalue="yes">
-<description>&lt;b&gt;Momentary Switch&lt;/b&gt;
-Button commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097</description>
-<gates>
-<gate name="S" symbol="SWITCH-MOMENTARY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="TACTILE_SWITCH_SMD">
-<connects>
-<connect gate="S" pin="1" pad="1"/>
-<connect gate="S" pin="2" pad="2"/>
-<connect gate="S" pin="3" pad="3"/>
-<connect gate="S" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH" package="TACTILE-PTH">
-<connects>
-<connect gate="S" pin="1" pad="1"/>
-<connect gate="S" pin="2" pad="2"/>
-<connect gate="S" pin="3" pad="3"/>
-<connect gate="S" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="KSA_SEALED" package="KSA_SEALED_TAC_SWITCH">
-<connects>
-<connect gate="S" pin="1" pad="P$1"/>
-<connect gate="S" pin="2" pad="P$2"/>
-<connect gate="S" pin="3" pad="P$3"/>
-<connect gate="S" pin="4" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BATTERY" prefix="BAT" uservalue="yes">
-<description>&lt;b&gt;Battery Holders&lt;/b&gt;
-Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
+<description>&lt;b&gt;Battery Holders&lt;/b&gt;&lt;br&gt;
+Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.&lt;br&gt;
+20MM_4LEGS, BATT-10373</description>
 <gates>
 <gate name="G$1" symbol="BATTERY" x="0" y="0"/>
 </gates>
@@ -2263,13 +2158,25 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="BATT-10373"/>
+<attribute name="VALUE" value="20mm coincell" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="AA-KIT" package="BATTERY-AA-KIT">
 <connects>
 <connect gate="G$1" pin="+" pad="PWR@1"/>
 <connect gate="G$1" pin="-" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LIPO-TABS" package="LIPO-110-TABS">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2480,6 +2387,37 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="-1.8" y1="0.9" x2="-1.8" y2="-0.1" width="0.0762" layer="21"/>
 <wire x1="-1.8" y1="-0.1" x2="-1.8" y2="-0.8" width="0.0762" layer="21"/>
 </package>
+<package name="SWITCH_PTH">
+<wire x1="3.048" y1="1.016" x2="3.048" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="3.048" y1="2.54" x2="2.54" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="3.048" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="3.048" y1="-2.54" x2="3.048" y2="-1.016" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-3.048" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-3.048" y1="2.54" x2="-3.048" y2="1.016" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-3.048" y2="-2.54" width="0.2032" layer="51"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.016" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-3.048" x2="-2.159" y2="-3.048" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.54" y1="3.048" x2="2.159" y2="3.048" width="0.2032" layer="51"/>
+<wire x1="2.159" y1="3.048" x2="-2.159" y2="3.048" width="0.2032" layer="21"/>
+<wire x1="-2.159" y1="-3.048" x2="2.159" y2="-3.048" width="0.2032" layer="21"/>
+<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.508" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="0.508" x2="-2.159" y2="-0.381" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
+<pad name="1" x="-3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="3.2512" y="2.2606" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="-3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
+<pad name="4" x="3.2512" y="-2.2606" drill="1.016" diameter="1.8796"/>
+<text x="-1.27" y="-3.81" size="0.4064" layer="25">&gt;NAME</text>
+<wire x1="-4.445" y1="3.81" x2="-4.445" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="-4.445" y1="-3.81" x2="4.445" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="4.445" y1="-3.81" x2="4.445" y2="3.81" width="0.127" layer="39"/>
+<wire x1="4.445" y1="3.81" x2="-4.445" y2="3.81" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R_EU">
@@ -2490,6 +2428,27 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <text x="-3.81" y="1.4986" size="1.778" layer="96">&gt;NAME</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="SWITCH">
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="4.445" x2="1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="4.445" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.905" y1="4.445" x2="0" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0" y1="4.445" x2="-1.905" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="4.445" x2="0" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="-2.54" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="2"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2502,6 +2461,24 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SWITCH" prefix="S">
+<gates>
+<gate name="G$1" symbol="SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PTH" package="SWITCH_PTH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2528,7 +2505,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="JP3" library="SparkFun-Connectors" deviceset="M07" device=""/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M07" device=""/>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD"/>
+<part name="S1" library="thewknd" deviceset="SWITCH" device="-PTH"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -2571,7 +2548,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 <instance part="JP3" gate="G$1" x="76.2" y="165.1"/>
 <instance part="JP4" gate="G$1" x="109.22" y="165.1"/>
 <instance part="JP7" gate="G$1" x="73.66" y="119.38"/>
-<instance part="S1" gate="S" x="160.02" y="162.56"/>
+<instance part="S1" gate="G$1" x="160.02" y="162.56"/>
 <instance part="GND1" gate="1" x="170.18" y="152.4"/>
 <instance part="BAT1" gate="G$1" x="198.12" y="167.64"/>
 <instance part="GND2" gate="1" x="205.74" y="157.48"/>
@@ -2623,13 +2600,14 @@ http://creativecommons.org/licenses/by-sa/3.0/
 <label x="83.82" y="119.38" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S1" gate="S" pin="3"/>
-<pinref part="S1" gate="S" pin="4"/>
-<wire x1="165.1" y1="162.56" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="4"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="165.1" y1="160.02" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="160.02" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
-<junction x="165.1" y="160.02"/>
+<wire x1="170.18" y1="160.02" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
+<junction x="170.18" y="160.02"/>
+<pinref part="S1" gate="G$1" pin="3"/>
+<wire x1="170.18" y1="162.56" x2="165.1" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BAT1" gate="G$1" pin="-"/>
@@ -2933,15 +2911,15 @@ http://creativecommons.org/licenses/by-sa/3.0/
 <label x="83.82" y="124.46" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="S1" gate="S" pin="2"/>
-<pinref part="S1" gate="S" pin="1"/>
-<wire x1="154.94" y1="160.02" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="162.56" x2="149.86" y2="162.56" width="0.1524" layer="91"/>
-<junction x="154.94" y="162.56"/>
 <label x="142.24" y="162.56" size="0.8128" layer="95" rot="R180" xref="yes"/>
 <wire x1="149.86" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <junction x="149.86" y="162.56"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="160.02" x2="149.86" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="1">
